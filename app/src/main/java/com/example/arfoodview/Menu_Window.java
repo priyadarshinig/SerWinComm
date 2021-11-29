@@ -31,10 +31,10 @@ public class Menu_Window extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu__window);
 
-        String restaurant = MainActivity.restChosen; //getIntent().getStringExtra("Rest_name");
+        String restaurant = "SunnyWay"; //getIntent().getStringExtra("Rest_name");
 
         TextView tView = (TextView) findViewById(R.id.RestName);
-        String rName = restaurant + " Menu";
+        String rName = "SERWIN COMM MENU";
         tView.setText(rName);
 
         searchView = (SearchView) findViewById(R.id.searchView);

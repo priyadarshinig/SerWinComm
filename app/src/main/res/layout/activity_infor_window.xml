@@ -5,7 +5,7 @@
     android:id="@+id/nameDisplay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#000000"
     tools:context=".Infor_window">
 
 
@@ -38,7 +38,7 @@
                     android:layout_height="36dp"
                     android:background="@android:color/transparent"
                     android:text="Help"
-                    android:tint="@color/colorAccent"
+                    android:tint="@color/colorPrimary"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.043"
@@ -53,7 +53,7 @@
             android:id="@+id/divider0"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
 
             <TextView
@@ -64,7 +64,7 @@
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Nutrition"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/colorText"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -75,23 +75,24 @@
                 android:id="@+id/allergendisplay"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/infoName"
-                android:layout_marginLeft="10dp"
                 android:layout_width="20dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Name:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
 
             <TextView
                 android:id="@+id/displayFoodName"
@@ -99,161 +100,174 @@
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider1"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/caloryInfo"
-                android:layout_marginLeft="10dp"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Calories:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
+
             <TextView
                 android:id="@+id/calDisplay"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/sugarInfo"
-                android:layout_marginLeft="10dp"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Sugar:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
+
             <TextView
                 android:id="@+id/sugarDisplay"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="Display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider3"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/proteinInfo"
-                android:layout_marginLeft="10dp"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Protein:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
+
             <TextView
                 android:id="@+id/proteinDisplay"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="Display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/sodiumInfo"
-                android:layout_marginLeft="10dp"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Sodium:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
+
             <TextView
                 android:id="@+id/NaDisplay"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="Display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider5"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/transFat"
-                android:layout_marginLeft="10dp"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Trans Fat:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
+
             <TextView
                 android:id="@+id/taDisplay"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="Display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider6"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/fatInfo"
-                android:layout_marginLeft="10dp"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Fat:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
+
             <TextView
                 android:id="@+id/fatDisplay"
                 android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="Display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider7"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <TableRow>
+
             <TextView
                 android:id="@+id/CarbsInfo"
-                android:layout_marginLeft="10dp"
                 android:layout_width="67dp"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:padding="3dip"
                 android:text="Carbs:"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
 
             <TextView
                 android:id="@+id/carbsDisplay"
@@ -261,13 +275,13 @@
                 android:layout_height="match_parent"
                 android:padding="3dip"
                 android:text="Display"
-                android:textColor="@color/colorPrimary" />
+                android:textColor="@color/colorText" />
         </TableRow>
         <View
             android:id="@+id/divider9"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorAccent" />
+            android:background="@color/colorPrimary" />
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -279,9 +293,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:background="#FFFFFF"
-                app:itemIconTint="@color/colorAccent"
-                app:itemTextColor="@color/colorAccent"
+                android:background="#8BC34A"
+                app:itemIconTint="@color/colorText"
+                app:itemTextColor="@color/colorText"
                 app:menu="@menu/dish_nav" />
 
         </FrameLayout>

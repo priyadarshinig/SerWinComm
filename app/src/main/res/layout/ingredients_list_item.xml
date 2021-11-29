@@ -5,7 +5,7 @@
         android:id="@+id/ingredientDisplay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
+        android:background="#000000"
         tools:context=".SeeIngredients">
 
         <TableLayout
@@ -37,7 +37,7 @@
                         android:layout_height="36dp"
                         android:background="@android:color/transparent"
                         android:text="Help"
-                        android:tint="@color/colorAccent"
+                        android:tint="@color/colorPrimary"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.043"
@@ -51,7 +51,7 @@
                 android:id="@+id/divider8"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorAccent" />
+                android:background="@color/colorPrimary" />
             <TableRow>
                 <TextView
                     android:id="@+id/displayFoodName"
@@ -92,13 +92,13 @@
                     android:layout_marginLeft="10dp"
                     android:layout_width="149dp"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/colorPrimary" />
+                    android:textColor="@color/colorText" />
             </TableRow>
             <View
                 android:id="@+id/divider9"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/colorAccent" />
+                android:background="@color/colorPrimary" />
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -111,9 +111,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
-                    android:background="#FFFFFF"
-                    app:itemIconTint="@color/colorAccent"
-                    app:itemTextColor="@color/colorAccent"
+                    android:background="#8BC34A"
+                    app:itemIconTint="@color/colorText"
+                    app:itemTextColor="@color/colorText"
                     app:menu="@menu/dish_nav" />
 
             </FrameLayout>
